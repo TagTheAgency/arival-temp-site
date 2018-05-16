@@ -9,9 +9,9 @@
 				</div>
 				<div id="social-links" class="col-12 col-sm-auto pl-0 mt-2 mt-sm-0">
 					<ul class="d-flex justify-content-center">
-						<li class="mr-5"><a href="https://www.linkedin.com/company/arivalglobal/"><i class="fab fa-linkedin-in hover-secondary"></i></a></li>
-						<li class="mr-5"><a href="https://www.facebook.com/ArivalGlobal"><i class="fab fa-facebook-f hover-secondary"></i></a></li>
-						<li ><a href="https://twitter.com/ArivalGlobal"><i class="fab fa-twitter hover-secondary"></i></a></li>
+						<li class="mr-5"><a href="https://www.linkedin.com/company/arivalglobal/" target="_blank"><i class="fab fa-linkedin-in hover-secondary"></i></a></li>
+						<li class="mr-5"><a href="https://www.facebook.com/ArivalGlobal" target="_blank"><i class="fab fa-facebook-f hover-secondary"></i></a></li>
+						<li ><a href="https://twitter.com/ArivalGlobal"><i class="fab fa-twitter hover-secondary" target="_blank"></i></a></li>
 					</ul>
 				</div>
 			</div>
