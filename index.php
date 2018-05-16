@@ -57,7 +57,7 @@
 					<h2 id="form-header" class="underline underline-gradient ls-8 text-white">GET IN TOUCH <i class="material-icons">arrow_right_alt</i></h2>
 				</div>
 				<div id="form-container" class="col-11 col-md-6 col-lg-5">
-					<form action="POST" id="contactform" class="contact-form" action="mailer.php">
+					<form method="POST" id="contactform" class="contact-form" action="mailer.php">
 						<input id="form-name" class="w-100 input-light mb-3" name="name" type="text" placeholder="NAME" required>
 						<input class="w-100 input-light mb-3" type="email" name="email" placeholder="EMAIL" required>
 						<input class="w-100 input-light mb-3" type="number" name="number" placeholder="PHONE NUMBER" required>

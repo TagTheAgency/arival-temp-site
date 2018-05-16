@@ -13,7 +13,7 @@
 <div class="container black text-white" id="form-container">
 	<div class="row justify-content-center align-items-center">
 		<div class="col-10 col-sm-8">
-			<form id="contactform" action="POST" class="contact-form" action="mailer.php">
+			<form id="contactform" method="POST" class="contact-form" action="mailer.php">
 				<input id="form-name" class="w-100 input-light mb-3" name="name" type="text" placeholder="NAME" required>
 				<input class="w-100 input-light mb-3" type="email" name="email" placeholder="EMAIL" required>
 				<input class="w-100 input-light mb-3" type="number" name="number" placeholder="PHONE NUMBER" required>

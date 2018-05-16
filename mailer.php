@@ -7,8 +7,8 @@
 				$name = str_replace(array("\r","\n"),array(" "," "),$name);
         $email = filter_var(trim($_POST["email"]), FILTER_SANITIZE_EMAIL);
         $message = trim($_POST["message"]);
-		$recipient = "charliemating@gmail.com";
-        $phone = trim($_POST["phone"]);
+		$recipient = "Adrian@arival.co";
+        $phone = trim($_POST["number"]);
 
         // Check that data was sent to the mailer.
         if ( empty($name) OR empty($message) OR !filter_var($email, FILTER_VALIDATE_EMAIL)) {
