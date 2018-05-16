@@ -24,9 +24,10 @@ jQuery(document).ready(function($){
 
 	$('.contact-form').submit(function(){
 		$(this).fadeOut();
+		$('#form-container').fadeOut();
 		$('#form-header').fadeOut(function(){
 			setTimeout(function(){
-				$('#form-header').html('Your message has been sent. Thanks <i class="fas fa-hand-peace"></i>');
+				$('#form-header').addClass('col-12 col-sm-12 col-lg-12 ls-8').html('MESSAGE SENT. THANK YOU.');
 				$('#form-header').fadeIn();
 			},100);
 		});
@@ -83,6 +84,15 @@ jQuery(document).ready(function($){
 		}
 	});
 
+	$(function(){
+	  $('#video').css({ width: $(window).innerWidth() + 'px', height: $(window).innerHeight() + 'px' });
+
+	  // If you want to keep full screen on window resize
+	  $(window).resize(function(){
+	    $('#video').css({ width: $(window).innerWidth() + 'px', height: $(window).innerHeight() + 'px' });
+	  });
+	});
+
 	if( $('body').height() < 900 ) {
     	$('#back-to-top').hide();
 		$('#social-links').addClass('justify-content-center p-0 col-10 col-sm-10');
@@ -101,6 +111,13 @@ jQuery(document).ready(function($){
 		var targeted_popup_class = $(this).attr('data-popup-close');
 		$('[data-popup="' + targeted_popup_class + '"]').fadeOut(350);
 		$("body").css('overflow','auto');
+
+		// Stop Youtube videos
+		var video = $(this).find('iframe').attr("src");
+		$(this).find('iframe').attr("src","");
+		$(this).find('iframe').attr("src",video);
+
+		$.scrollify.enable();
 	});
 
 });

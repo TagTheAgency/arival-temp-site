@@ -13,10 +13,10 @@ $white: #fff;
 }
 
 body {
-  font-family: "proxima-nova";
+  font-family: "proxima-nova",sans-serif;
   background-color: $black;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 18px;
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -187,6 +187,11 @@ nav{
 	img{
 		width: 100%;
 	}
+}
+
+.rounded{
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 .logo{
@@ -481,6 +486,36 @@ input{
         &::placeholder{
             opacity: 0.5;
         }
+    }
+
+    &::placeholder{
+        letter-spacing: 4px;
+        font-size: 0.8em;
+    }
+}
+
+.top-index{
+    z-index: 2500;
+}
+
+.overlay-black{
+    background-color: rgba(#000000, 0.88);
+}
+
+.video-wrapper{
+
+    position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+    width: 100%;
+
+    iframe{
+        position: absolute;
+    	top: 0;
+    	left: 0;
+    	width: 100%;
+    	height: 100%;
     }
 }
 

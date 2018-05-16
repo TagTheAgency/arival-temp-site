@@ -2,7 +2,7 @@
 	$currentPage = 'solution';
 	require('header.php');
 ?>
-<div class="container-fluid pt-5 text-white">
+<div class="container pt-5 text-white">
 	<div class="row text-left justify-content-center align-items-center pt-5">
 		<div class="col-12 d-flex flex-wrap pt-5">
 			<div class="col-12 col-md-5 offset-md-1">

@@ -7,10 +7,8 @@
 				$name = str_replace(array("\r","\n"),array(" "," "),$name);
         $email = filter_var(trim($_POST["email"]), FILTER_SANITIZE_EMAIL);
         $message = trim($_POST["message"]);
-        $region = trim($_POST["region"]);
-		$recipient = "product@tagtheagency.com";
+		$recipient = "charlie@tagtheagency.com";
         $phone = trim($_POST["phone"]);
-		$product = trim($_POST["product"]);
 
         // Check that data was sent to the mailer.
         if ( empty($name) OR empty($message) OR !filter_var($email, FILTER_VALIDATE_EMAIL)) {
@@ -21,13 +19,13 @@
         }
 
         // Set the email subject.
-        $subject = "$product - New enquiry from $name";
+        $subject = "Arival - New enquiry from $name";
 
         // Build the email content.
-    $email_content = "Name: $name\n";
-    $email_content .= "Email: $email\n";
-    $email_content .= "Phone: $phone\n\n";
-    $email_content .= "Message:\n$message\n";
+        $email_content = "Name: $name\n";
+        $email_content .= "Email: $email\n";
+        $email_content .= "Phone: $phone\n\n";
+        $email_content .= "Message:\n$message\n";
 
         // Build the email headers.
         $email_headers = "From: $name <$email>";

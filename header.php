@@ -3,9 +3,9 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta name="description" content="Dash App">
+		<meta name="description" content="Arival">
 		<!-- <link rel="shortcut icon" type="image/png" href="/favicon.png"/> -->
-		<title>Arival&trade;</title>
+		<title>Arival</title>
 		<link rel="stylesheet" href="https://use.typekit.net/heh7zye.css">
 		<link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
@@ -17,7 +17,35 @@
 		<link rel="stylesheet" href="css/style.min.css">
 	</head>
 	<body>
-		<div class="fixed search-overlay container-fluid gradient vw-100 vh-100 text-white popup" data-popup="search-overlay">
+		<div class="fixed search-overlay container-fluid overlay-black vw-100 vh-100 text-white popup" data-popup="dome-video">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 text-right pt-5">
+						<i class="material-icons hover popup-close font-lg" data-popup-close="dome-video">close</i>
+					</div>
+				</div>
+				<div class="row justify-content-center">
+					<div class="col-10 col-sm-8 text-right pt-5 video-wrapper">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/mTm8MjmK0q0?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="fixed search-overlay container-fluid overlay-black vw-100 vh-100 text-white popup" data-popup="metric-video">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 text-right pt-5">
+						<i class="material-icons hover popup-close font-lg" data-popup-close="metric-video">close</i>
+					</div>
+				</div>
+				<div class="row justify-content-center">
+					<div class="col-10 col-sm-8 text-right pt-5 video-wrapper">
+						<iframe src="https://player.vimeo.com/video/229355496" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="fixed search-overlay container-fluid black vw-100 vh-100 text-white popup" data-popup="search-overlay">
 			<div class="container">
 				<div class="row">
 					<div class="col-12 text-right pt-5">
@@ -37,17 +65,19 @@
 				</div>
 			</div>
 		</div>
-		<div id="mobile-menu" class="fixed vh-100 w-100 black text-white container-fluid d-md-none">
+		<div id="mobile-menu" class="fixed vh-100 w-100 black text-white container-fluid d-lg-none">
 			<div class="row text-right p-2 pt-4 p-sm-4">
 				<div class="col-12">
 					<i id="mobile-menu-close" class="material-icons hover gradient-text">close</i>
 				</div>
 				<div class="col-12 mt-4">
-					<ul>
-						<li class="mb-4 nav-item-uppercase ls-4"><a href="./"><h3>HOME</h2></a></li>
-						<li class="mb-4 nav-item-uppercase ls-4"><a href="about.php"><h3>ABOUT</h2></a></li>
-						<li class="mb-4 nav-item-uppercase ls-4"><a href="team.php"><h3>TEAM</h2></a></li>
-						<li class="nav-item-uppercase ls-4"><h3><a href="contact.php">CONTACT</a></h2></li>
+					<ul class="ls-4">
+						<li class="mb-4 nav-item-uppercase <?php if ($currentPage == "home"){?>active-page<?php } ?>"><a class="hover-secondary" href="./">HOME</a></li>
+						<li class="mb-4 nav-item-uppercase <?php if ($currentPage == "about"){?>active-page<?php } ?>"><a class="hover-secondary" href="about.php">ABOUT</a></li>
+						<li class="mb-4 nav-item-uppercase <?php if ($currentPage == "solution"){?>active-page<?php } ?>"><a class="hover-secondary" href="solution.php">SOLUTION</a></li>
+						<li class="mb-4 nav-item-uppercase <?php if ($currentPage == "products"){?>active-page<?php } ?>"><a class="hover-secondary" href="products.php">PRODUCTS</a></li>
+						<li class="mb-4 nav-item-uppercase <?php if ($currentPage == "team"){?>active-page<?php } ?>"><a class="hover-secondary" href="team.php">TEAM</a></li>
+						<li class="form-scroll nav-item-uppercase <?php if ($currentPage == "contact"){?>active-page<?php } ?>"><a class="hover-secondary" href="contact.php">CONTACT</a></li>
 					</ul>
 				</div>
 			</div>
@@ -60,17 +90,18 @@
 							<a href="./"><img src="img/logo.png" alt=""></a>
 						</div>
 					</div>
-					<div class="col-auto d-none d-md-flex align-items-center">
+					<div class="col-auto d-none d-lg-flex align-items-center">
 						<ul class="ls-2">
 							<li class="mr-sm-1 mr-md-4 nav-item-uppercase <?php if ($currentPage == "home"){?>active-page<?php } ?>"><a class="hover-secondary" href="./">HOME</a></li>
 							<li class="mr-sm-1 mr-md-4 nav-item-uppercase <?php if ($currentPage == "about"){?>active-page<?php } ?>"><a class="hover-secondary" href="about.php">ABOUT</a></li>
 							<li class="mr-sm-1 mr-md-4 nav-item-uppercase <?php if ($currentPage == "solution"){?>active-page<?php } ?>"><a class="hover-secondary" href="solution.php">SOLUTION</a></li>
+							<li class="mr-sm-1 mr-md-4 nav-item-uppercase <?php if ($currentPage == "products"){?>active-page<?php } ?>"><a class="hover-secondary" href="products.php">PRODUCTS</a></li>
 							<li class="mr-sm-1 mr-md-4 nav-item-uppercase <?php if ($currentPage == "team"){?>active-page<?php } ?>"><a class="hover-secondary" href="team.php">TEAM</a></li>
 							<li class="form-scroll nav-item-uppercase <?php if ($currentPage == "contact"){?>active-page<?php } ?>"><a class="hover-secondary" href="contact.php">CONTACT</a></li>
 						</ul>
 						<div class="btn btn-secondary btn-round ml-4 search-overlay-btn py-2 px-4 btn-sm" data-popup-open="search-overlay">SEARCH</div>
 					</div>
-					<div class="col-auto d-block d-md-none">
+					<div class="col-auto d-block d-lg-none">
 						<i id="mobile-menu-btn" class="material-icons hover">menu</i>
 					</div>
 				</div>
