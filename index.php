@@ -16,7 +16,7 @@
 		<div class="container black py-5 text-white">
 			<div class="row text-center justify-content-center align-items-center py-sm-5 fade-in">
 				<div class="col-10 col-md-7 col-xl-8">
-					<h2 class="ls-8 text-white"><strong>ABOUT</strong></h2>
+					<h2 class="ls-8 text-white font-sm"><strong>ABOUT</strong></h2>
 					<p>Arival is the technology platform that is revolutionising live sports engagement. Fan engagement with live sports has been challenged to keep pace with the fast changing and evolving world of technology and innovation.</p>
 					<a href="about.php" class="btn btn-secondary-filled m-0 mt-4 form-scroll btn-round d-inline-flex align-items-center btn-arrow">LEARN MORE <i class="material-icons">keyboard_arrow_right</i></a>
 				</div>
