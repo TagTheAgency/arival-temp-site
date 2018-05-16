@@ -99,7 +99,7 @@
 							<li class="mr-sm-1 mr-md-4 nav-item-uppercase <?php if ($currentPage == "team"){?>active-page<?php } ?>"><a class="hover-secondary" href="team.php">TEAM</a></li>
 							<li class="form-scroll nav-item-uppercase <?php if ($currentPage == "contact"){?>active-page<?php } ?>"><a class="hover-secondary" href="contact.php">CONTACT</a></li>
 						</ul>
-						<div class="btn btn-secondary btn-round ml-4 search-overlay-btn py-2 px-4 btn-sm" data-popup-open="search-overlay">SEARCH</div>
+						<div class="d-none btn btn-secondary btn-round ml-4 search-overlay-btn py-2 px-4 btn-sm" data-popup-open="search-overlay">SEARCH</div>
 					</div>
 					<div class="col-auto d-block d-lg-none">
 						<i id="mobile-menu-btn" class="material-icons hover">menu</i>
