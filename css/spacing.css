@@ -756,6 +756,9 @@
   .text-sm-center{
       text-align: center !important;
   }
+  .font-sm{
+      font-size: 0.7em;
+  }
 }
 
 @media (min-width: 768px) {
@@ -1029,6 +1032,18 @@
   }
   .vw-md-100{
       width: 100vw !important;
+  }
+  .text-md-left{
+      text-align: left !important;
+  }
+  .text-md-right{
+      text-align: right !important;
+  }
+  .text-md-center{
+      text-align: center !important;
+  }
+  .font-md{
+      font-size: 1.2em;
   }
 }
 
@@ -1304,6 +1319,18 @@
   .vw-lg-100{
       width: 100vw !important;
   }
+  .text-lg-left{
+      text-align: left !important;
+  }
+  .text-lg-right{
+      text-align: right !important;
+  }
+  .text-lg-center{
+      text-align: center !important;
+  }
+  .font-lg{
+      font-size: 2em;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -1577,6 +1604,9 @@
   }
   .vw-xl-100{
       width: 100vw !important;
+  }
+  .font-xl{
+      font-size: 4em;
   }
 }
 

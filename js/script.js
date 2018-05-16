@@ -7,7 +7,7 @@ jQuery(document).ready(function($){
 			var bottom_of_element = $(this).offset().top + $(this).outerHeight();
 		   	var bottom_of_window = $(window).scrollTop() + $(window).height();
 
-			if (bottom_of_window > bottom_of_element - 700) {
+			if (bottom_of_window > bottom_of_element - 500) {
 				$(this).addClass('fade-up');
 			}
 		});
@@ -18,6 +18,9 @@ jQuery(document).ready(function($){
 			scrollTop: 0
 		}, 1000);
 	});
+
+	$('.hero-container').fadeIn(400);
+	$('.hero-container .fade-in').addClass('fade-up');
 
 	$('.contact-form').submit(function(){
 		$(this).fadeOut();

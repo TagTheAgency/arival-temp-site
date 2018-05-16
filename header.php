@@ -62,10 +62,10 @@
 					</div>
 					<div class="col-auto d-none d-md-flex align-items-center">
 						<ul class="ls-2">
-							<li class="nav-item-uppercase <?php if ($currentPage == "home"){?>active-page<?php } ?>"><a class="hover-secondary" href="./">HOME</a></li>
-							<li class="nav-item-uppercase <?php if ($currentPage == "about"){?>active-page<?php } ?>"><a class="hover-secondary" href="about.php">ABOUT</a></li>
-							<li class="nav-item-uppercase <?php if ($currentPage == "solution"){?>active-page<?php } ?>"><a class="hover-secondary" href="solution.php">SOLUTION</a></li>
-							<li class="nav-item-uppercase <?php if ($currentPage == "team"){?>active-page<?php } ?>"><a class="hover-secondary" href="team.php">TEAM</a></li>
+							<li class="mr-sm-1 mr-md-4 nav-item-uppercase <?php if ($currentPage == "home"){?>active-page<?php } ?>"><a class="hover-secondary" href="./">HOME</a></li>
+							<li class="mr-sm-1 mr-md-4 nav-item-uppercase <?php if ($currentPage == "about"){?>active-page<?php } ?>"><a class="hover-secondary" href="about.php">ABOUT</a></li>
+							<li class="mr-sm-1 mr-md-4 nav-item-uppercase <?php if ($currentPage == "solution"){?>active-page<?php } ?>"><a class="hover-secondary" href="solution.php">SOLUTION</a></li>
+							<li class="mr-sm-1 mr-md-4 nav-item-uppercase <?php if ($currentPage == "team"){?>active-page<?php } ?>"><a class="hover-secondary" href="team.php">TEAM</a></li>
 							<li class="form-scroll nav-item-uppercase <?php if ($currentPage == "contact"){?>active-page<?php } ?>"><a class="hover-secondary" href="contact.php">CONTACT</a></li>
 						</ul>
 						<div class="btn btn-secondary btn-round ml-4 search-overlay-btn py-2 px-4 btn-sm" data-popup-open="search-overlay">SEARCH</div>
