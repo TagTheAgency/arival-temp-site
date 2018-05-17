@@ -15,6 +15,17 @@
 		<div class="col-10 col-sm-6 col-md-4 d-flex flex-wrap pb-5">
 			<div class="col-12 pb-3 d-flex justify-content-center pb-4">
 				<div class="circle-container">
+					<img src="img/bs.jpg" alt="">
+				</div>
+			</div>
+			<div class="col-12 text-center justify-content-center pb-2">
+				<h3 class="ls-4 mb-2">BARRY SANDREW, Ph.D</h3>
+				<p>Chairman</p>
+			</div>
+		</div>
+		<div class="col-10 col-sm-6 col-md-4 d-flex flex-wrap pb-5">
+			<div class="col-12 pb-3 d-flex justify-content-center pb-4">
+				<div class="circle-container">
 					<img src="img/dt.jpg" alt="">
 				</div>
 			</div>
