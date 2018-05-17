@@ -8,7 +8,7 @@
 				<div class="col-8 text-white fade-in">
 					<h2 class="hero-header ls-15"><strong>ARIVAL</strong></h2>
 					<p class="hero-sub-header ls-6">BRINGING FANS INTO THE GAME</p>
-					<a href="about.php" class="btn btn-white-filled m-0 mt-4 form-scroll btn-round d-inline-flex align-items-center btn-arrow">LEARN MORE <i class="material-icons">keyboard_arrow_right</i></a>
+					<a href="about.php" class="btn btn-white-filled m-0 mt-4 btn-round d-inline-flex align-items-center btn-arrow">LEARN MORE <i class="material-icons">keyboard_arrow_right</i></a>
 				</div>
 			</div>
 		</div>
@@ -59,12 +59,12 @@
 				</div>
 				<div class="order-1 order-md-2 pb-5 pb-md-0 col-8 col-sm-5 mt-5 mt-sm-0">
 					<div class="img-container rounded">
-						<img src="img/dome-home.jpg" alt="">
+						<img src="img/dome-home.png" alt="">
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="d-none d-sm-block spacer-40 black"></div>
+		<div class="d-none d-sm-block spacer-80 black"></div>
 		<div class="container black text-white text-center pb-sm-5 fade-in">
 			<div class="row justify-content-center align-items-center py-2 py-sm-5">
 				<div class="col-11 col-md-6 col-lg-5">
