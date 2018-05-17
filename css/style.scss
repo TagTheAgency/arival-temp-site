@@ -192,6 +192,8 @@ nav{
 .rounded{
     border-radius: 10px;
     overflow: hidden;
+    display: flex;
+    align-items: center;
 }
 
 .logo{

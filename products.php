@@ -2,9 +2,14 @@
 	$currentPage = 'products';
 	require('header.php');
 ?>
-<div class="container pt-md-4 text-white">
+<div class="container pt-5 text-white text-center">
+	<div class="row justify-content-center pt-md-5 mt-5">
+		<div class="col-10">
+			<h1 class="ls-8">PRODUCTS</h1>
+		</div>
+	</div>
 	<div class="row text-left pt-md-4 justify-content-center">
-		<div class="col-10 d-flex justify-content-center flex-wrap align-items-center pt-5 pt-md-2 mt-5">
+		<div class="col-10 d-flex justify-content-center flex-wrap align-items-center pt-3 pt-md-2 mt-5">
 			<div class="col-12 pr-md-5 col-sm-8 col-md-6 text-center text-md-left">
 				<h1 class="ls-10"><strong>FAN MASKS</strong></h1>
 				<p class="body-text-sm">Building on our fan engagement focus we work with Image-Metrics, the world's leading Fan mask and facial recognition brand to deliver Fan Mask activations for your sports game.</p>
