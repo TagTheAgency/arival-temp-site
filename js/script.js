@@ -113,9 +113,10 @@ jQuery(document).ready(function($){
 		$("body").css('overflow','auto');
 
 		// Stop Youtube videos
-		var video = $(this).find('iframe').attr("src");
-		$(this).find('iframe').attr("src","");
-		$(this).find('iframe').attr("src",video);
+		var iframe = $(this).parent().parent().parent().find('iframe');
+		var video = iframe.attr("src");
+		iframe.attr("src","");
+		iframe.attr("src",video);
 
 		$.scrollify.enable();
 	});

@@ -26,7 +26,7 @@
 			<div class="row text-right align-items-center justify-content-center py-5 section-img hero-banner-full">
 				<div class="col-11 col-sm-5">
 					<div class="img-container">
-						<img src="img/solution.jpg" alt="">
+						<img src="img/solution.jpg" alt="Arival Solution">
 					</div>
 				</div>
 				<div class="col-11 text-center text-sm-center col-sm-7 col-md-4 fade-in">
@@ -45,7 +45,7 @@
 				</div>
 				<div class="col-8 order-1  col-sm-5 mt-5 mt-sm-0">
 					<div class="img-container">
-						<img src="img/fan.png" alt="">
+						<img src="img/fan.png" alt="fan masks image metrics">
 					</div>
 				</div>
 			</div>
@@ -59,7 +59,21 @@
 				</div>
 				<div class="order-1 order-md-2 pb-5 pb-md-0 col-8 col-sm-5 mt-5 mt-sm-0">
 					<div class="img-container rounded">
-						<img src="img/dome-home.png" alt="">
+						<img src="img/dome-home.png" alt="360 dome">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container black text-white pb-5 pb-sm-0 pt-md-5 mt-md-5 pb-5 fade-in">
+			<div class="row text-right align-items-center justify-content-center py-md-5 section-img hero-banner-full pb-5 mb-md-4">
+				<div class="order-2 order-md-2 col-11 text-center text-sm-center col-sm-6 col-md-6">
+					<h2 class="ls-8 text-white"><strong>POWERED BY SPORTRADAR</strong></h2>
+					<p>Sportradar is a global leader in understanding and leveraging the power of sports data around the world. Integrated with the cutting edge data visualization of the Arival platform, game and fan engagement has just moved to the next level!</p>
+					<a class="btn btn-secondary-filled m-0 mt-4 btn-round d-inline-flex align-items-center btn-arrow" data-popup-open="sportsradar-video">SEE MORE <i class="material-icons">keyboard_arrow_right</i></a>
+				</div>
+				<div class="order-1 order-md-1 pb-5 pb-md-0 col-8 col-sm-6 mt-5 mt-sm-0">
+					<div class="img-container rounded">
+						<img src="img/sportradar.png" alt="sportradar">
 					</div>
 				</div>
 			</div>

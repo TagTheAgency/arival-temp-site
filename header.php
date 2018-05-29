@@ -31,6 +31,20 @@
 				</div>
 			</div>
 		</div>
+		<div class="fixed search-overlay container-fluid overlay-black vw-100 vh-100 text-white popup" data-popup="sportsradar-video">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 text-right pt-5">
+						<i class="material-icons hover popup-close font-lg" data-popup-close="sportsradar-video">close</i>
+					</div>
+				</div>
+				<div class="row justify-content-center">
+					<div class="col-10 col-sm-8 text-right pt-5 video-wrapper">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/_xTuyxDlkMI?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+					</div>
+				</div>
+			</div>
+		</div>
 		<div class="fixed search-overlay container-fluid overlay-black vw-100 vh-100 text-white popup" data-popup="metric-video">
 			<div class="container">
 				<div class="row">
