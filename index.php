@@ -4,7 +4,7 @@
 ?>
 
 		<div class="container-fluid hero-container">
-			<div class="row hero-banner hero-banner-full hero-fixed vh-100 text-center text-md-left justify-content-center align-items-center" style="background-image: url('./img/bg.jpg');">
+				<div class="row hero-banner hero-banner-full hero-fixed vh-100 text-left justify-content-center align-items-center" style="background-image: url('./img/bg.jpg');">
 				<div class="col-8 text-white fade-in">
 					<h2 class="hero-header ls-15"><strong>ARIVAL</strong></h2>
 					<p class="hero-sub-header ls-6">BRINGING FANS INTO THE GAME</p>
