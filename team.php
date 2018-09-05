@@ -138,7 +138,7 @@
 			</div>
 			<div class="col-12 text-center justify-content-center pb-2">
 				<h3 class="ls-4 mb-2">MATT COLEMAN</h3>
-				<p>Head of Innovation</p>
+				<p>Advisor</p>
 			</div>
 		</div>
 	</div>
