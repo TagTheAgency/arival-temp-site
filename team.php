@@ -130,7 +130,7 @@
 				<p>Advisor</p>
 			</div>
 		</div>
-		<div class="col-10 col-sm-6 col-md-4 d-flex flex-wrap pb-5">
+		<div class="col-10 col-sm-6 col-md-3 d-flex flex-wrap pb-5">
 			<div class="col-12 pb-3 d-flex justify-content-center pb-4">
 				<div class="circle-container">
 					<img src="img/mc.jpg" alt="">
