@@ -12,17 +12,8 @@
 </div>
 <div class="container pb-5 mb-5">
 	<div class="row text-white justify-content-center">
-		<div class="col-10 col-sm-6 col-md-4 d-flex flex-wrap pb-5">
-			<div class="col-12 pb-3 d-flex justify-content-center pb-4">
-				<div class="circle-container">
-					<img src="img/bs.jpg" alt="">
-				</div>
-			</div>
-			<div class="col-12 text-center justify-content-center pb-2">
-				<h3 class="ls-4 mb-2">BARRY SANDREW, Ph.D</h3>
-				<p>Chairman</p>
-			</div>
-		</div>
+
+
 		<div class="col-10 col-sm-6 col-md-4 d-flex flex-wrap pb-5">
 			<div class="col-12 pb-3 d-flex justify-content-center pb-4">
 				<div class="circle-container">
@@ -31,7 +22,7 @@
 			</div>
 			<div class="col-12 text-center justify-content-center pb-2">
 				<h3 class="ls-4 mb-2">DAVID TURIK</h3>
-				<p class="ls-2">CEO</p>
+				<p class="ls-2">Director / CEO</p>
 			</div>
 		</div>
 		<div class="col-10 col-sm-6 col-md-4 d-flex flex-wrap pb-5">
@@ -42,20 +33,10 @@
 			</div>
 			<div class="col-12 text-center justify-content-center pb-2">
 				<h3 class="ls-4 mb-2">CRAIG MEEK</h3>
-				<p>Head Of Product</p>
+				<p>Chairman / Head Of Product</p>
 			</div>
 		</div>
-		<div class="col-10 col-sm-6 col-md-4 d-flex flex-wrap pb-5">
-			<div class="col-12 pb-3 d-flex justify-content-center pb-4">
-				<div class="circle-container">
-					<img src="img/mc.jpg" alt="">
-				</div>
-			</div>
-			<div class="col-12 text-center justify-content-center pb-2">
-				<h3 class="ls-4 mb-2">MATT COLEMAN</h3>
-				<p>Head of Innovation</p>
-			</div>
-		</div>
+
 		<div class="col-10 col-sm-6 col-md-4 d-flex flex-wrap pb-5">
 			<div class="col-12 pb-3 d-flex justify-content-center pb-4">
 				<div class="circle-container">
@@ -86,7 +67,7 @@
 			</div>
 			<div class="col-12 text-center justify-content-center pb-2">
 				<h3 class="ls-4 mb-2">CRAIG ANDERSON</h3>
-				<p>Chief Financial Officer</p>
+				<p>Director / CFO</p>
 			</div>
 		</div>
 		<div class="col-10 col-sm-6 col-md-4 d-flex flex-wrap pb-5">
@@ -149,15 +130,15 @@
 				<p>Advisor</p>
 			</div>
 		</div>
-		<div class="col-10 col-sm-6 col-md-3 d-flex flex-wrap pb-5">
+		<div class="col-10 col-sm-6 col-md-4 d-flex flex-wrap pb-5">
 			<div class="col-12 pb-3 d-flex justify-content-center pb-4">
 				<div class="circle-container">
-					<img src="img/ph.jpg" alt="">
+					<img src="img/mc.jpg" alt="">
 				</div>
 			</div>
 			<div class="col-12 text-center justify-content-center pb-2">
-				<h3 class="ls-4 mb-2">PAT HULL</h3>
-				<p>Advisor</p>
+				<h3 class="ls-4 mb-2">MATT COLEMAN</h3>
+				<p>Head of Innovation</p>
 			</div>
 		</div>
 	</div>
