@@ -33,7 +33,7 @@
 			</div>
 			<div class="col-12 text-center justify-content-center pb-2">
 				<h3 class="ls-4 mb-2">CRAIG MEEK</h3>
-				<p>Chairman / Head Of Product</p>
+				<p>CTO</p>
 			</div>
 		</div>
 
@@ -116,7 +116,7 @@
 			</div>
 			<div class="col-12 text-center justify-content-center pb-2">
 				<h3 class="ls-4 mb-2">MATT COLEMAN</h3>
-				<p>Advisor</p>
+				<p>President, USA</p>
 			</div>
 		</div>
 	</div>
